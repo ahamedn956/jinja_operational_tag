@@ -19,6 +19,19 @@
     <h1>max is {{c}}</h1>
     {% endif %}
 
+    
+   <h1>if-elif </h1>
+    {% if a > b and a > c %}
+        <h2>if block </h2>
+        <h2>a is max{{a}}</h2>
+    {% elif b > c %}
+        <h2>elif block </h2>
+        <h2>b is max {{b}}</h2>
+    {% else %}
+        <h2>else block </h2>
+        <h2>c is max {{c}}</h2>
+    {% endif %}
+
 
 </body>
 </html> 
