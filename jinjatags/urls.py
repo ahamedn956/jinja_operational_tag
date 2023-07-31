@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('conditions/',conditions,name='conditions'),
     path('nested_if/',nested_if,name='nested_if'),
+    path('forloop/',forloop,name='forloop'),
 ]
