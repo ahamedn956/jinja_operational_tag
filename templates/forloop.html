@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forloop</title>
 </head>
 <body>
 <h1>My name is</h1>
@@ -19,6 +19,8 @@
     {% for h in hobbies %}
     <h2>{{h}}</h2>
     {% endfor %}
+
+<h4><a href="{% url 'conditions' %}" style="text-decoration: none;">click here to go to conditional statement</a></h4>
 
 </body>
 </html>
